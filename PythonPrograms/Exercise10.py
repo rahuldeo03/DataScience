@@ -6,3 +6,6 @@ save first 5 lines in a list,
 write 2 lines into the file,
 get current position of the file object pointer,
 close the file '''
+
+f = open("C:/Users/rahul03/PycharmProjects/DataScience/PythonPrograms/Sample1.txt", "r")
+print(f.read())

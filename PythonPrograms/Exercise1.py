@@ -5,9 +5,12 @@
 # If it does not satisfy any of the above given conditions, display "Invalid".
 
 # Store input number
+import math
 print("Program to check if a number is divisible by 3 or 5 or both")
 try:
     num1 = int(input('Enter the number: '))
+    print('factorial is : ' + str(math.factorial(num1)))
+    print(math.ceil(num1))
     # Implement Logic and print result
     if num1 % 3 == 0:
         if num1 % 5 == 0:
@@ -20,3 +23,9 @@ try:
         print("Not divisible by 3 or 5")
 except:
     print("Something went wrong")
+finally:
+    print('program completes')
+    
+
+    
+

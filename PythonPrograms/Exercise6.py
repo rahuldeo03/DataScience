@@ -4,3 +4,9 @@
 #[1,1,5,100,-20,-20,6,0,0] 3
 #[10,20,30,40,30,20]       0
 #[1,2,2,3,4,4,4,10]        3
+
+import numpy as np
+import matplotlib.
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))

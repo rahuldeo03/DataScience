@@ -1,17 +1,31 @@
-''' Exercise 9
-Write a python function, encrypt_sentence(msg) which accepts a message and encrypts it based on rules given below and returns the encrypted message.
- Words at odd position -> Reverse It
-Words at even position -> Rearrange the characters so that all consonants appear before the vowels and their order should not change
-Note: Assume that the sentence would begin with a word and there will be only a single space between the words.
-          Perform case sensitive string operations wherever necessary.
-Example: msg=the sun rises in the east    output=eht snu sesir ni eht stea
+''' Exercise 10
+Write a program to read a file from a folder, 
+read from a url in write mode,
+print first 3 lines of the file by iterating
+save first 5 lines in a list,
+write 2 lines into the file,
+get current position of the file object pointer,
+close the file '''
 
-Write a Python program to find the number of characters present the given string.
 
-Write a Python program to find the numbers of words present in the given sentence.
+#Python program to scrape website  
+#and save quotes from website 
+import requests 
+import pandas as pd
+import re
+from bs4 import BeautifulSoup 
+URL = "https://www.ndtv.com/weather"
+r = requests.get(URL) 
+trim = re.compile(r'[^\d.,]+')
+soup = BeautifulSoup(r.content, 'html5lib')
+print(soup.find_all('td', valign_='top'))
+#for a in soup.find_all('td', valign_='top'):
+#    name=a.find('h1', attrs={'class':'headline-banner__title'})
+    #price=a.find('div', attrs={'class':'_1vC4OE _2rQ-NK'})
+    #products.append(name.text)
+    #prices.append(trim.sub('', price.text))
+#    print(name.text)  
+#df = pd.DataFrame({'Product Name':products}) 
+#df.to_csv('Cars.csv', index=False, encoding='utf-8')
 
-Write a Python function words_count(sentence) to return a dictionary with the length of words as key and number words with such length as value.
-Example: sentence=“I love python and it so easy to learn” sample output={1:1,4:2,5:1,3:1,2:3,6:1}
-
-Write a Python function vowel_count(sentence) to return a dictionary with vowels, consonants,
-others as key and respective number of vowels, consonants, others characters as value. '''
+#result = trim.sub('', mystring)

@@ -1,0 +1,4 @@
+What makes up a file and why that’s important in Python
+The basics of reading and writing files in Python
+Some basic scenarios of reading and writing files
+Appending also possible

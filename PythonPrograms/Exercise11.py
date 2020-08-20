@@ -1,7 +1,4 @@
 ''' Exercise10:
-Given a list of numbers, write a Python function to return the list of prime numbers present in it.
-Example: input:[7,9,11,13,15,20,23] output:[7,11,13,23]
-
 Write a python function find_common_characters(msg1,msg2) to display all the common characters between given two strings. Return -1 if there are no matching characters.
 Note: Ignore blank spaces if there are any. Perform case sensitive string comparison wherever necessary.
 Example: msg1="I like Python", msg2="Java is a very popular language" output=lieyon

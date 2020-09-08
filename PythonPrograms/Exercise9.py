@@ -1,31 +1,33 @@
-''' Exercise 10
-Write a program to read a file from a folder, 
-read from a url in write mode,
-print first 3 lines of the file by iterating
-save first 5 lines in a list,
-write 2 lines into the file,
-get current position of the file object pointer,
-close the file '''
-
-
-#Python program to scrape website  
-#and save quotes from website 
 import requests 
 import pandas as pd
+import pickle
 import re
 from bs4 import BeautifulSoup 
-URL = "https://www.ndtv.com/weather"
+URL = "https://www.flipkart.com/mobiles/mi~brand/pr?sid=tyy,4io&otracker=clp_metro_expandable_2_5.metroExpandable.METRO_EXPANDABLE_mobile-phones-store_ZHYC957RFL_wp3&fm=neo%2Fmerchandising&iid=M_84a0d040-1732-4bc1-91e5-1db3d3179f71_5.ZHYC957RFL&ssid=s1a8uehom80000001598163916586"
 r = requests.get(URL) 
 trim = re.compile(r'[^\d.,]+')
 soup = BeautifulSoup(r.content, 'html5lib')
-print(soup.find_all('td', valign_='top'))
-#for a in soup.find_all('td', valign_='top'):
-#    name=a.find('h1', attrs={'class':'headline-banner__title'})
-    #price=a.find('div', attrs={'class':'_1vC4OE _2rQ-NK'})
-    #products.append(name.text)
-    #prices.append(trim.sub('', price.text))
-#    print(name.text)  
-#df = pd.DataFrame({'Product Name':products}) 
-#df.to_csv('Cars.csv', index=False, encoding='utf-8')
+products=[] #List to store name of the product
+prices=[] #List to store price of the product
+specifications=[] #List to store rating of the product
+for a in soup.findAll('a',href=True, attrs={'class':'_31qSD5'}):
+    name=a.find('div', attrs={'class':'_3wU53n'})
+    price=a.find('div', attrs={'class':'_1vC4OE'})
+    specs=soup.findAll('li', attrs={'class':'tVe95H'})
+    for i, spec in enumerate(specs):
+        specs.append(spec)
+        print(spec)
+    print('--------------')    
+    products.append(name.text)
+    prices.append(trim.sub('', price.text)) 
+    specifications.append(specs.text)
+    #df = pd.DataFrame({i:specs})
+#print(products)    
+#print(prices)  
+#print(specifications)  
+#df = pd.DataFrame({'Product Name':products,'Price':prices, 'Specifications':specifications}) 
+#df.to_csv('products.csv', index=False, encoding='utf-8')    
+              
 
-#result = trim.sub('', mystring)
+              
+

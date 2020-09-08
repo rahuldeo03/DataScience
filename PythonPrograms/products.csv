@@ -1,25 +1,25 @@
-Product Name,Price
-"Redmi Note 9 (Aqua Green, 64 GB)","14,990"
-"Redmi Note 9 (Pebble Grey, 128 GB)","15,398"
-"Redmi Note 9 (Aqua Green, 128 GB)","15,599"
-"Redmi 8A Dual (Sky White, 64 GB)","9,799"
-"Redmi 8A Dual (Sea Blue, 64 GB)","9,498"
-"Mi A2 (Red, 128 GB)","11,999"
-"Redmi Note 9 (Pebble Grey, 64 GB)","14,998"
-"Redmi Note 9 (Arctic White, 64 GB)","14,995"
-"Redmi K20 Pro (Flame Red, 128 GB)","24,999"
-"Redmi K20 Pro (Glacier Blue, 128 GB)","24,999"
-"Redmi 8A Dual (Sky White, 32 GB)","8,067"
-"Redmi Note 8 (Cosmic Purple, 64 GB)","13,999"
-"Redmi K20 (Glacier Blue, 128 GB)","21,999"
-"Redmi K20 (Carbon Black, 128 GB)","21,999"
-"Redmi K20 Pro (Carbon Black, 128 GB)","24,999"
-"Redmi Y2 (Dark Grey, 64 GB)","11,890"
-"Redmi Note 7 Pro (Neptune Blue, 128 GB)","16,998"
-"Redmi Note 8 (Moonlight White, 64 GB)","13,999"
-"Redmi Note 9 Pro (Interstellar Black, 64 GB)","16,975"
-"Redmi K20 Pro (Flame Red, 256 GB)","29,999"
-"Redmi K20 Pro (Pearl White, 128 GB)","24,999"
-"Redmi K20 (Carbon Black, 64 GB)","21,999"
-"Redmi Note 7 (Onyx Black, 64 GB)","13,430"
-"Redmi K20 Pro (Carbon Black, 256 GB)","29,999"
+Product Name,Price,Specifications
+"Redmi 8 (Ruby Red, 64 GB)","9,999",4 GB RAM | 64 GB ROM | Expandable Upto 512 GB
+"Redmi Note 9 (Aqua Green, 64 GB)","14,999",4 GB RAM | 64 GB ROM | Expandable Upto 512 GB
+"Redmi Note 9 (Pebble Grey, 128 GB)","15,299",4 GB RAM | 128 GB ROM | Expandable Upto 512 GB
+"Redmi Note 9 (Arctic White, 64 GB)","14,995",4 GB RAM | 64 GB ROM | Expandable Upto 512 GB
+"Redmi Note 9 (Aqua Green, 128 GB)","15,509",4 GB RAM | 128 GB ROM | Expandable Upto 512 GB
+"Redmi 8A Dual (Sea Blue, 32 GB)","8,499",2 GB RAM | 32 GB ROM | Expandable Upto 512 GB
+"Mi A2 (Red, 128 GB)","11,999",6 GB RAM | 128 GB ROM
+"Redmi Note 9 (Arctic White, 128 GB)","15,638",4 GB RAM | 128 GB ROM | Expandable Upto 512 GB
+"Redmi 8A Dual (Sky White, 32 GB)","8,124",2 GB RAM | 32 GB ROM | Expandable Upto 512 GB
+"Redmi K20 Pro (Flame Red, 128 GB)","24,999",6 GB RAM | 128 GB ROM
+"Redmi K20 Pro (Glacier Blue, 128 GB)","24,999",6 GB RAM | 128 GB ROM
+"Redmi Note 8 (Cosmic Purple, 64 GB)","13,999",4 GB RAM | 64 GB ROM
+"Redmi 8A Dual (Midnight Grey, 32 GB)","8,238",2 GB RAM | 32 GB ROM | Expandable Upto 512 GB
+"Redmi K20 (Glacier Blue, 128 GB)","21,999",6 GB RAM | 128 GB ROM
+"Redmi K20 (Carbon Black, 128 GB)","21,999",6 GB RAM | 128 GB ROM
+"Redmi Y2 (Dark Grey, 64 GB)","11,890",4 GB RAM | 64 GB ROM | Expandable Upto 256 GB
+"Redmi K20 Pro (Carbon Black, 128 GB)","24,999",6 GB RAM | 128 GB ROM
+"Redmi Note 8 (Moonlight White, 64 GB)","13,999",4 GB RAM | 64 GB ROM
+"Redmi 8A Dual (Sky White, 64 GB)","9,498",3 GB RAM | 64 GB ROM
+"Redmi Note 6 Pro (Red, 64 GB)","14,639",6 GB RAM | 64 GB ROM | Expandable Upto 256 GB
+"Redmi Note 7 (Onyx Black, 64 GB)","13,430",4 GB RAM | 64 GB ROM | Expandable Upto 256 GB
+"Redmi K20 (Carbon Black, 64 GB)","21,999",6 GB RAM | 64 GB ROM
+"Redmi K20 Pro (Pearl White, 128 GB)","24,999",6 GB RAM | 128 GB ROM
+"Redmi K20 Pro (Carbon Black, 256 GB)","29,999",8 GB RAM | 256 GB ROM

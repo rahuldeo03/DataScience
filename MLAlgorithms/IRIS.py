@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 23 16:39:47 2020
+Created on Sun Aug 23 19:59:27 2020
 
 @author: Rahul03
 """
-
 
 #!/usr/bin/env python
 # coding: utf-8
@@ -14,10 +13,7 @@ Created on Sun Aug 23 16:39:47 2020
 
 import numpy as np
 import pandas as pd
-import pickle
-from flask import Flask, render_template, request
-app = Flask(__name__)
-model = pickle.load(open('housing_price.pkl', 'rb'))
+
 df = pd.read_csv(r'C:\Users\rahul03\SpyderProjects\DataScience\MLAlgorithms\car.txt')
 df.head(5)
 
@@ -93,14 +89,12 @@ X_test = scaler.transform(X_test)
 
 # In[162]:
 
-import pickle
+
 from sklearn.neighbors import KNeighborsClassifier
 classifier = KNeighborsClassifier(n_neighbors=5)
 classifier.fit(X_train, y_train)
 
-pickle.dump(classifier, open('model.pkl', 'wb'))
 
-#model = pickle.load(open('model.pkl', 'rb'))
 # In[163]:
 
 

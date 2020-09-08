@@ -12,11 +12,14 @@ specifications=[] #List to store rating of the product
 for a in soup.findAll('a',href=True, attrs={'class':'_31qSD5'}):
     name=a.find('div', attrs={'class':'_3wU53n'})
     price=a.find('div', attrs={'class':'_1vC4OE'})
-    specifications=a.find('li', attrs={'class':'tVe95H'})
+    specification=a.find('li', attrs={'class':'tVe95H'})
     products.append(name.text)
     prices.append(trim.sub('', price.text))  
-    specifications.append(specifications.text)
-df = pd.DataFrame({'Product Name':products,'Price':prices}) 
+    specifications.append(specification.text)
+print(products)    
+print(prices)  
+print(specifications)  
+df = pd.DataFrame({'Product Name':products,'Price':prices, 'Specifications':specifications}) 
 df.to_csv('products.csv', index=False, encoding='utf-8')    
               
 
